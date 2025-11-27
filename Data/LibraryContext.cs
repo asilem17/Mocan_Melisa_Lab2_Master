@@ -19,5 +19,6 @@ namespace Mocan_Melisa_Lab2_Master.Data
         public DbSet<Mocan_Melisa_Lab2_Master.Models.Genre> Genre { get; set; } = default!;
 
         public DbSet<Mocan_Melisa_Lab2_Master.Models.Author> Author { get; set; } = default!;
+        public DbSet<Mocan_Melisa_Lab2_Master.Models.Order> Order { get; set; } = default!;
     }
 }
